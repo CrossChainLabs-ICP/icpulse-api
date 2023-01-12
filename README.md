@@ -1,1 +1,1 @@
-# icpulse-api
+# ICPulse API
