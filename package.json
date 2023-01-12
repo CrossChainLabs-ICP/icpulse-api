@@ -1,0 +1,28 @@
+{
+  "name": "icpulse-api",
+  "version": "0.0.1",
+  "description": "ICPulse API",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrossChainLabs-ICP/icpulse-api.git"
+  },
+  "author": "CrossChain Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrossChainLabs-ICP/icpulse-api/issues"
+  },
+  "homepage": "https://github.com/CrossChainLabs-ICP/icpulse-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "time-stamp": "^2.2.0"
+  },
+  "devDependencies": {
+  }
+}
