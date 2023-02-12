@@ -109,6 +109,17 @@ const activity = async function (req, res, next) {
   );
 };
 
+const active_repos = async function (req, res, next) {
+  await get(
+    "*",
+    "active_repositories_view",
+    "ORDER BY month",
+    res,
+    "active_repos",
+    false
+  );
+};
+
 module.exports = {
   statistics,
   topContributors,
@@ -117,4 +128,5 @@ module.exports = {
   recentCommits,
   repositories,
   activity,
+  active_repos,
 };
